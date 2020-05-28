@@ -3,7 +3,7 @@ About helpme
 
 Home: https://www.github.com/vsoch/helpme
 
-Package license: AGPL-3.0
+Package license: MPL-2.0
 
 Feedstock license: BSD 3-Clause
 
