@@ -10,7 +10,7 @@ source:
   sha256: c4ff80595654843a62283c1778c08c115fd8deb55bc684626f2b27bb6b293b38
 
 build:
-  number: 3
+  number: 4
   entry_points:
     - helpme=helpme.client:main
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
