@@ -6,11 +6,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: c4ff80595654843a62283c1778c08c115fd8deb55bc684626f2b27bb6b293b38
 
 build:
-  number: 6
+  number: 7
   entry_points:
     - helpme=helpme.client:main
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
